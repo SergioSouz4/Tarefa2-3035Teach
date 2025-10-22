@@ -1,0 +1,43 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color:azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px black;
+  overflow: hidden;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 16px;
+  text-align: left;
+  border-bottom: 1px solid #ffffff;
+}
+
+thead tr{
+  background-color: rgb(7, 199, 151);
+  color: white;
+}
+
+tbody tr {
+  background-color: #ffffff;
+}
+
+
+tbody tr:hover td {
+  color: rgb(7, 199, 151);
+}
